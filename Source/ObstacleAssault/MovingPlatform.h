@@ -24,9 +24,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, Category = "Moving Platform");
-	FVectir PlatformVelocity = FVetor(100, 0, 0);
+	FVector PlatformVelocity = FVector(100, 0, 0);
 
-	UPROPERT(EditAnywhere, Category = "Moving Platform");
+	UPROPERTY(EditAnywhere, Category = "Moving Platform");
 	float MoveDistance = 100;
 
 	FVector StartLocation;
